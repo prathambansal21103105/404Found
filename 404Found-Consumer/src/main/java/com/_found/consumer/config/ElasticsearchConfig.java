@@ -17,7 +17,7 @@ public class ElasticsearchConfig {
     public RestClient restClient() {
         // Set up the low-level REST client
         return RestClient.builder(
-                new HttpHost("34.126.214.113", 9200, "http")
+                new HttpHost("34.131.118.32", 9200, "http")
         ).build();
     }
 
